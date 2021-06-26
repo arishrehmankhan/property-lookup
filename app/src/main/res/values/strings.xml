@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Property Lookup</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_confirm_password_hint">Confirm Password</string>
+    <string name="app_icon_attribution">Logo made by <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo free logo creator</a></string>
+
+    <string-array name="property_type_array">
+        <item>Apartment</item>
+        <item>Builder/Floor</item>
+        <item>Plot/Land</item>
+        <item>House/Villa</item>
+        <item>Farmhouse</item>
+        <item>Serviced Apartment</item>
+    </string-array>
+
+    <string-array name="search_property_type_array">
+        <item>All</item>
+        <item>Apartment</item>
+        <item>Builder/Floor</item>
+        <item>Plot/Land</item>
+        <item>House/Villa</item>
+        <item>Farmhouse</item>
+        <item>Serviced Apartment</item>
+    </string-array>
+</resources>

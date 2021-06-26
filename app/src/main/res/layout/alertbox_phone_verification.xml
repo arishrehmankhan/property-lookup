@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCode"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel"
+        android:layout_marginTop="@dimen/loginViewsMargin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextCode"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:maxLines="1"
+            android:hint="Enter verification code"
+            android:textSize="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
